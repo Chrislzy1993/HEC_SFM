@@ -1,5 +1,17 @@
 # Simultaneous Hand-Eye Calibration and Reconstruction - shecar
 
+# changelog
+
+原仓库地址: <https://github.com/STAR-Center/shecar>
+
+sfm仓库地址: <https://github.com/zhixy/TheiaSfM/tree/HandEye>
+
+修复bug...
+
+----
+
+
+
 We present a novel pipeline for hand-eye calibration which combines classical hand-eye calibration with 3D reconstruction. This work will be presented at IROS 2017.
 
 The accompyniying dataset is located at: https://robotics.shanghaitech.edu.cn/datasets/shecar 

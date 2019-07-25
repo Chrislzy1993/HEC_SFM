@@ -1,0 +1,15 @@
+The datasets of all three experiments are given in three subfolders respectively.
+
+Hand poses are given in text file with the file name containing "handposes". Every line of the text is a hand pose, the first nine numbers make up the orientation matrix with column major, i.e. 
+	1  4  7
+R=  2  5  8
+    3  6  9
+position is the last three numbers.
+
+The ground truth of hand-eye calibration is given in text file with the name containing "ground truth", the format of ground truth is same to hand pose.
+
+The intrinsic parameter of the camera used in monocular and griiper-camera experiments are given in file named "intrinsic.txt". where each line is in the form of:
+     image_name focal_length ppx ppy aspect_ratio skew k1 k2
+where ppx, ppy are the principal points of the image and k1, k2 are the two radial distortion parameters.
+
+In synthetic data experiment, the 2-view matches are already estimated and saved to ".matches" files. ".matches" file is a binary file format defined in Theia.
